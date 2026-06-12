@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>🚛 Rota Verde</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>🚛 Rota Verde</h1>
+    <p>Planeje entregas sustentáveis e reduza a emissão de CO₂</p>
+</header>
+
+<main>
+
+<section class="painel">
+
+    <div class="card">
+
+        <h2>📍 Escolha o Transporte</h2>
+
+        <select id="transporte">
+            <option value="0">Selecione</option>
+            <option value="50">🚛 Caminhão Diesel</option>
+            <option value="30">🚚 Caminhão Biodiesel</option>
+            <option value="15">⚡ Caminhão Elétrico</option>
+        </select>
+
+    </div>
+
+    <div class="card">
+
+        <h2>🛣️ Distância da Entrega (km)</h2>
+
+        <input type="number" id="distancia" placeholder="Ex: 300">
+
+    </div>
+
+</section>
+
+<button id="calcular">🌱 Calcular Impacto Ambiental</button>
+
+<section id="resultado"></section>
+
+<section class="ranking">
+
+    <h2>🏆 Classificação Ambiental</h2>
+
+    <div id="classificacao">Aguardando cálculo...</div>
+
+</section>
+
+</main>
+
+<footer>
+    Projeto Agrinho 2026 - Rota Verde
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
